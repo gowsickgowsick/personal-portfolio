@@ -1,4 +1,6 @@
 import React from "react";
+import profile from "./assets/profile.jpeg"
+
 import {
   Facebook,
   Dribbble,
@@ -27,7 +29,7 @@ export default function About() {
               <div className="absolute -inset-0.5 bg-gradient-to-r from-violet-600 to-indigo-500 rounded-2xl opacity-0 group-hover:opacity-10 transition duration-300 blur"></div>
               <img
                 className="relative rounded-2xl object-cover w-full h-[380px] md:h-[450px] shadow-lg border border-slate-100 dark:border-slate-800 transition-transform duration-500 group-hover:scale-105"
-                src="../src/assets/profile.jpeg"
+                src={profile }
                 alt="Gowsick working"
               />
 

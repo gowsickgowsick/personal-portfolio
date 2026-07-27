@@ -1,6 +1,7 @@
 
 import React from "react";
 import { ArrowRight, Sparkles } from "lucide-react";
+import profile from "./assets/profile2.jpeg"
 
 function Profile() {
   const scrollToContact = () => {
@@ -80,7 +81,7 @@ I build secure, responsive, and user-friendly web applications using Python, Fas
               {/* Image */}
               <img 
                 className="relative rounded-3xl object-cover w-full h-[400px] md:h-[450px] lg:h-[500px] shadow-2xl border border-white dark:border-slate-800 transition-transform duration-300 group-hover:scale-[1.01]" 
-                src="../src/assets/profile2.jpeg" 
+                src={profile}
                 alt="Gowsick's Portrait"
               />
             </div>
