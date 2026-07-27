@@ -12,7 +12,7 @@ import Happyclient from "./happyclient2";
 import Contact from "./Contact";
 import Copy from "./copy";
 import Profile from "./Profile";
-import './app.css'
+import './App.css'
 
 function App() {
   return (
